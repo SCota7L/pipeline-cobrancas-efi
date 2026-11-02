@@ -1,0 +1,27 @@
+# Segredos: NUNCA versionar
+.env
+*.pem
+*.p12
+certs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Dados locais
+data/
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+
+# Airflow
+logs/
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
